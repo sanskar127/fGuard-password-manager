@@ -1,0 +1,53 @@
+.f-box {
+    width: 22rem;
+    min-height: 24rem;
+    max-height: 26rem;
+    overflow: hidden;
+}
+
+.head {
+    border-bottom: 1px solid silver;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 2rem;
+}
+
+.head h1 {
+    font-size: 32px;
+}
+
+/* .input-box {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.input-box input {
+    width: 80%;
+    background-color: rgb(37, 37, 37, 90%);
+    backdrop-filter: blur(2px);
+    border: none;
+    outline: 0;
+    height: 26px;
+    border-radius: 10px;
+} */
+
+.forget {
+    padding-left: 8px;
+    margin-bottom: .7rem;
+}
+
+.form-button {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.signin {
+    transform: translateY(0%);
+    transition: all .2s;
+}
+
+.signup {
+    transform: translateY(150%);
+    transition: all .2s;
+}
